@@ -25,7 +25,29 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+But this is a boilerplate based on the [Clean Architecture](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+Principles by Uncle Bob. The base Nestjs modular architecture is great but sometimes it could appear Tight Coupled to the Software.
+Hence I made this template for my basic need.
 
+## Features
+<hr>
+
+- [ValidationPipe](https://docs.nestjs.com/techniques/validation#validation) already added.
+- [Config](https://docs.nestjs.com/techniques/configuration#configuration)
+
+## Getting Started
+<hr>
+
+```bash
+# Get the project
+git clone https://github.com/sirolad/nestjs-ddd.git my-service
+
+# Change directory
+cd my-service
+
+# Copy .env.example to .env
+cp .env.example .env
+```
 ## Installation
 
 ```bash
